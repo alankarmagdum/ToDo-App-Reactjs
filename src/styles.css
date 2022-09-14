@@ -53,6 +53,8 @@ footer a:hover {
 .bin {
   font-size: 1rem;
   cursor: pointer;
-  background-color: Yellow;
-  color: red;
+}
+.bin:hover {
+ background-color: #46c521;
+ color: red;
 }
