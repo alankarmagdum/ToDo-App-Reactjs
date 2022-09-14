@@ -99,7 +99,7 @@ export default function App(){
                             &nbsp;
                             <div className='tasks'>
                                 <div>{ todo.task }</div>
-                                <div className="bin" onClick={() => removeTask(todo.id)}>🗑️</div>
+                                <div className="bin" onClick={() => removeTask(todo.id)}>Delete</div>
                             </div>
                         </div>
                     )
